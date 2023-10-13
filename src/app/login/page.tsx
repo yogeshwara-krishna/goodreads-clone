@@ -3,7 +3,6 @@
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import { useRouter } from "next/navigation";
 import { Database } from "../../../types/database.types";
-import BubbleWrap from "./BubbleWrap";
 
 export default function Login() {
   const router = useRouter();
